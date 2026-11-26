@@ -19,7 +19,7 @@ El proyecto aborda la visualización del reconocimiento gestual y el flujo de in
 
 ## Hardware Principal
 
-* **Microcontrolador:** ESP32-S3 (montado en protoboard con USB-C orientado hacia arriba en el montaje físico)[cite: 5].
+* **Microcontrolador:** ESP32-S3 (montado en protoboard con USB-C orientado hacia arriba en el montaje físico).
 * **Sensores de distancia:** 2 × **VL53L0X** (uno en pared izquierda para eje $+X$ y otro en pared frontal orientado hacia el usuario para eje $-Y$, con control `XSHUT` y buses $\text{I}^2\text{C}$ separados).
 * **Interfaz física:** 2 botones pulsadores (`INICIAR` y `FINALIZAR`), 2 LEDs de estado (verde y rojo) con sus respectivas resistencias limitadoras en serie, y protoboard.
 
