@@ -37,6 +37,6 @@ El proyecto aborda la visualización del reconocimiento gestual y el flujo de in
 ## Flujo de Trabajo
 
 1. **Verificación de sensores y FSM:** Validar lecturas simultáneas de los VL53L0X y transiciones de estado en Arduino IDE (`115200` baudios).
-2. **Captura y construcción del dataset:** Conectar el ESP32-S3 a la interfaz `PyQt5` para graficar en vivo y guardar muestras de las cuatro clases («C», círculo, «1» y «2»)[cite: 2, 3].
+2. **Captura y construcción del dataset:** Conectar el ESP32-S3 a la interfaz `PyQt5` para graficar en vivo y guardar muestras de las cuatro clases («C», círculo, «1» y «2»).
 3. **Entrenamiento del MLP en Python:** Entrenar y evaluar el modelo con el dataset recolectado y exportar sus parámetros.
 4. **Inferencia embebida:** Integrar el modelo en el ESP32-S3 y validar la clasificación en tiempo real desde `PyQt5`.
